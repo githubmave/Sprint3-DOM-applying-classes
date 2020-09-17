@@ -5,6 +5,7 @@ html, body {
 body {
   display: flex;
   align-items: center;
+  background-color: aquamarine;
   justify-content: center;
 }
 
@@ -18,7 +19,15 @@ div {
 }
 
 .blue {
-  background-color: blue;
+  background-color: rgb(10, 17, 113);
+}
+
+.rosy {
+  background-color: rgb(171, 28, 135);
+}
+
+.green {
+  background-color: rgb(28, 164, 96);
 }
 
 .invisible {
