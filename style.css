@@ -10,6 +10,8 @@ body {
 }
 
 div {
+
+  /*display: block;*/
   width: 100px;
   height: 100px;
   border: 1px #ccc dotted;
@@ -36,7 +38,12 @@ div {
 
 .visible {
   display: block;
+  
+  width: 100px;
+  height: 100px;
+
   border: 3px black dashed;
-  border-radius: 0;
-  background-color: white;
+   border-radius: 0%;
+  /*border-radius: 50%;*/
+  background-color: rgba(20, 116, 128, 0.719);
 }

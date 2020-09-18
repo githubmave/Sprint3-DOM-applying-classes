@@ -8,6 +8,7 @@ function start () {
   one();
   two();
   three();
+  makeVisible()
     
   // Your turn! Create a new function called `two`, then call it from here.
 }
@@ -42,3 +43,13 @@ function three () {
 // CREATE FUNCTION three HERE
 
 // CREATE FUNCTION makeVisible HERE
+
+function makeVisible() {
+  // First, we have to find the element:
+  var visual = document.getElementsByClassName('invisible')
+
+  // Next, we apply a new CSS class to it:
+  visual[0].classList.add('visible')
+
+
+}
